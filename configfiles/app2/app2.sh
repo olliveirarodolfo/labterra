@@ -10,3 +10,4 @@ wget https://raw.githubusercontent.com/olliveirarodolfo/labterra/main/configfile
 wget https://raw.githubusercontent.com/olliveirarodolfo/labterra/main/configfiles/app2/index.php -c /var/www/html/
 
 systemctl restart apache2.service
+exit 0
