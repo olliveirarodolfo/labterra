@@ -15,7 +15,7 @@ if [[ ! -f /etc/apache2/sites-available/000-default.conf ]] || [[ ! -f /var/www/
 then
 /usr/bin/wget https://raw.githubusercontent.com/olliveirarodolfo/labterra/main/configfiles/app2/000-default.conf -O /etc/apache2/sites-available/000-default.conf 
 /usr/bin/wget https://raw.githubusercontent.com/olliveirarodolfo/labterra/main/configfiles/app2/index.php -O /var/www/html/index.php 
-/usr/bin/wget https://raw.githubusercontent.com/olliveirarodolfo/labterra/main/configfiles/app2/.htaccess -O /var/www/html/.htaccess
+/usr/bin/wget https://raw.githubusercontent.com/olliveirarodolfo/labterra/main/configfiles/app2/htaccess -O /var/www/html/.htaccess
 fi
 
 systemctl restart apache2.service
