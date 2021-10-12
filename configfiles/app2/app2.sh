@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # install and config Apache
-apt update
-apt -f install apache2 php libapache2-mod-php -y
+apt-get update
+apt-get -f install apache2 php libapache2-mod-php -y
 a2enmod rewrite
 
 # configure site app2
