@@ -3,6 +3,10 @@
 # install and config Apache
 apt-get update
 apt-get -f install apache2 php libapache2-mod-php -y
+
+#workarround to avoid azure ubuntu repos problems
+apt-get -f install apache2 php libapache2-mod-php -y
+
 a2enmod rewrite
 
 # configure site app2
