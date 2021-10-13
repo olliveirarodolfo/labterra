@@ -49,7 +49,7 @@ All zone information and NSGs are defined under nsgs.tf and dns.tf respectively.
 Shell script
 </a>
 
-The folders app1 and app2 has a shell script to provision the applications (apache server and php) for DB server and APP servers. The VMs and VMSS uses the Azure Script Extension in order to run the shell script.
+The folders config/app1, config/app2 and config/dbvm has a shell script to provision the applications (apache server and php) for DB server and APP servers. The VMs and VMSS uses the Azure Script Extension in order to run the shell script.
 
 <a id="shell">
     <b>Topology</b>
