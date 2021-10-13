@@ -3,7 +3,7 @@
 # install and config Apache
 /usr/bin/apt-get update -y
 sleep 3
-apt-get -f install apache2 php libapache2-mod-php -y
+/usr/bin/apt-get -f install apache2 php libapache2-mod-php -y
 
 a2enmod rewrite
 
