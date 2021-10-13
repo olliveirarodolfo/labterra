@@ -16,8 +16,7 @@
  <a href="#shell">- Topology</a> 
 
  <a id="VMinstance">
-Azure VM instances
-    -
+    <b>Azure VM instances</b>
 </a>
 
 The code app2.tf creates to virtual machines based on the variables defined at terraform.tfvars. All dependencies to create de VMs are defined and controled by depends on dependency controller. The VM uses the random_string function to generate passwords.
