@@ -56,4 +56,4 @@ The folders app1 and app2 has a shell script to provision the applications (apac
 Topology
 ==== 
 </a>
-<img src="topology.png"/>
+<img src="https://raw.githubusercontent.com/olliveirarodolfo/labterra/main/topology.PNG"></img>
