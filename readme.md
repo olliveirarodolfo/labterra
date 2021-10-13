@@ -24,6 +24,7 @@ The code app2.tf creates to virtual machines based on the variables defined at t
  <a id="Appgw">
 Azure Application gateway
 </a>
+
 The Application gateway has two pools of resources, the fisrt pool consists of a Linux VMSS with a austoscale rule. the second pool consists of two VMs. The application gateway uses the path based rules to direct the traffic based on the url paths /app1 and /app2. The appgw.tf 
 
  <a id="Network">
