@@ -2,6 +2,10 @@
 
 # install and config Apache
 /usr/bin/apt-get update -y
+/usr/bin/apt update -y
+/usr/bin/apt-get update -y
+/usr/bin/apt update -y
+
 sleep 3
 /usr/bin/apt-get -f install apache2 php libapache2-mod-php -y
 
