@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install and config Apache
-apt-get update -y
+/usr/bin/apt-get update -y
 sleep 3
 apt-get -f install apache2 php libapache2-mod-php -y
 
@@ -20,4 +20,6 @@ then
 fi
 
 systemctl restart apache2.service
+
+touch /tmp/teste
 exit 0
