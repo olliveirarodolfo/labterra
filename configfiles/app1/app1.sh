@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # install and config Apache
+#repeated lines to solve a azure ubuntu repo problem
 /usr/bin/apt-get update -y
 touch /tmp/f1
 /usr/bin/apt update -y
