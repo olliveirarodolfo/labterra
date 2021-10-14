@@ -46,7 +46,7 @@ A Linux virtual machine scale set are deployed and provisioned with app1.sh scri
 All zone information and NSGs are defined under nsgs.tf and dns.tf respectively. The DNS zone and NSGs were put together with network resource group.
 
 <a id="shell">
-Shell script
+    <b>Shell script</b>
 </a>
 
 The folders config/app1, config/app2 and config/dbvm has a shell script to provision the applications (apache server and php) for DB server and APP servers. The VMs and VMSS uses the Azure Script Extension in order to run the shell script.
